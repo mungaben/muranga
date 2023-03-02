@@ -10,14 +10,17 @@ import { ThemeProvider } from 'next-themes'
 import TopNav from './navigation/TopNav'
 import Noneplayer from './navigation/Noneplayer'
 import Hotincampus from './Hotincampus'
+import Servercomp1 from './Servercomp1'
 
-const Themes = () => {
+const Themes = ({children}) => {
   return (
     <ThemeProvider enableSystem={true} attribute="class" >
 
-      <TopNav />
+      {/* <TopNav />
       <Noneplayer />
-      <Hotincampus />
+      <Servercomp1/> */}
+      {/* <Hotincampus /> */}
+      {children}
 
     </ThemeProvider>
 
