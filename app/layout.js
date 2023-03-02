@@ -1,5 +1,7 @@
-import TopNav from '@/components/navigation/TopNav'
-import './globals.css'
+import TopNav from "@/components/navigation/TopNav";
+import Themes from "@/components/Themes";
+import Themeprovider from "@/components/Themes";
+import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
@@ -11,9 +13,8 @@ export default function RootLayout({ children }) {
       <head />
 
       <body>
-        <TopNav/>
-        {children}
-        </body>
+        <Themes>{children}</Themes>
+      </body>
     </html>
-  )
+  );
 }

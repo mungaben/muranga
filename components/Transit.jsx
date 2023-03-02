@@ -12,6 +12,7 @@ import gsap from 'gsap'
 
 import Hotincampus from "@/components/Hotincampus";
 import Noneplayer from "@/components/navigation/Noneplayer";
+import {Suspense }from 'react';
 
 
 
@@ -54,10 +55,11 @@ const transit = () => {
 
   return (
     <div>
-        <SwitchTransition>
+      {/* <Suspense> */}
+      {/* <SwitchTransition>
             <Transition
             key={router.pathname}
-            timeout={2000}
+            timeout={1000}
             in={true}
             onEnter={onPageEnter}
             // onEntering={onPageEnter}
@@ -65,19 +67,17 @@ const transit = () => {
             // onExited={onPageExit}
             mountOnEnter={true}
             unmountOnExit={true}
-            >
+            > */}
               <div>
               <Noneplayer/>
               <Hotincampus/>
 
               </div>
              
-                
-            
-            
-                
-            </Transition>
-        </SwitchTransition>
+            {/* </Transition>
+        </SwitchTransition> */}
+      {/* </Suspense> */}
+      
 
 
 

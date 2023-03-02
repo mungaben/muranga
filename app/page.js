@@ -14,7 +14,9 @@ export default function Home() {
     <main className="" id="home">
       <div>
              <div>
-             <Transit/>
+             <Noneplayer/>
+             <Hotincampus/>
+            
              </div>
       </div>
     </main>
