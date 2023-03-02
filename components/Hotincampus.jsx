@@ -7,6 +7,7 @@ import Image from "next/image"
 const Hotincampus = () => {
   return (
     <div className=' bg-transparent'>
+      {/* blop */}
         <div className=' mx-2 p-1 mt-4 flex flex-col'>
             <h1>Hotincampus</h1>
              <div className=' flex mx-2'>

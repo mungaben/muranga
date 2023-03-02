@@ -21,7 +21,7 @@ export default function Home() {
            <Hotincampus />
         </Servercomp1>
       </Themes>
-    HELLOOOOO
+ 
     </main>
   );
 }
