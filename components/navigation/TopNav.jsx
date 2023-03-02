@@ -41,6 +41,7 @@ const TopNav = () => {
                             width={70}
                             height={70}
                             priority
+                            alt='UNIVERSITY LOGO'
                         />
 
 
@@ -85,7 +86,7 @@ const TopNav = () => {
             </div>
             <div className=' bg-green-300'>
                 <div className=' fixed  bottom-4 right-3'>
-                    heloo
+                    
                     {currentTheme === "dark" ? (
                         <button onClick={() => setTheme("light")}>
                             <RiSunLine size={25} />

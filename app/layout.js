@@ -1,9 +1,14 @@
+
+// " use client"
+
+
 import TopNav from "@/components/navigation/TopNav";
 import Themes from "@/components/Themes";
 import Themeprovider from "@/components/Themes";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
+  console.log("hello");
   return (
     <html lang="en">
       {/*
@@ -13,7 +18,9 @@ export default function RootLayout({ children }) {
       <head />
 
       <body>
-        <Themes>{children}</Themes>
+        {/* <Themes> */}
+          {children}
+          {/* </Themes> */}
       </body>
     </html>
   );

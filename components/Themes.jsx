@@ -5,21 +5,22 @@
 
 
 "use client"
-import React, { Children } from 'react'
+import React from 'react'
 import { ThemeProvider } from 'next-themes'
 import TopNav from './navigation/TopNav'
+import Noneplayer from './navigation/Noneplayer'
+import Hotincampus from './Hotincampus'
 
-const Themes = ({Children}) => {
+const Themes = () => {
   return (
-    <ThemeProvider  enableSystem={true} attribute="class" >
-      <div>
-      <TopNav/>
-      
-      {Children}
-      </div>
-     
+    <ThemeProvider enableSystem={true} attribute="class" >
+
+      <TopNav />
+      <Noneplayer />
+      <Hotincampus />
+
     </ThemeProvider>
-   
+
   )
 }
 

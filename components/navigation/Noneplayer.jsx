@@ -28,34 +28,34 @@ const Noneplayer = () => {
                         muted={true}
                         volume={0.5}
 
-                        onEnd={() => {
-                            console.log('end')
-                        }}
-                        onPlay={() => {
-                            console.log('play')
+                        // onEnd={() => {
+                        //     console.log('end')
+                        // }}
+                        // onPlay={() => {
+                        //     console.log('play')
                            
-                        }}
-                        onPause={() => {
-                            console.log('pause')
-                        }}
+                        // }}
+                        // onPause={() => {
+                        //     console.log('pause')
+                        // }}
                         // onProgress={() => {
                         //     console.log('progress')
                         // }}
                         // onTimeUpdate={() => {
                         //     console.log('time update')
                         // }}
-                        onVolumeChange={() => {
-                            console.log('volume change')
-                        }}
-                        onError={() => {
-                            console.log('error')
-                        }}
-                        onLoadedMetadata={() => {
-                            console.log('loaded metadata')
-                        }}
-                        onLoadedData={() => {
-                            console.log('loaded data')
-                        }}
+                        // onVolumeChange={() => {
+                        //     console.log('volume change')
+                        // }}
+                        // onError={() => {
+                        //     console.log('error')
+                        // }}
+                        // onLoadedMetadata={() => {
+                        //     console.log('loaded metadata')
+                        // }}
+                        // onLoadedData={() => {
+                        //     console.log('loaded data')
+                        // }}
 
 
 
