@@ -97,7 +97,7 @@ const Barchart = () => {
       //   ]
       // }
     })
-  })
+  },[])
   return (
     <div className='dark:text-white flex items-center justify-center my-4 '>
         <Doughnut data={dataxx} options={options}/>

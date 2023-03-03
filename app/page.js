@@ -12,7 +12,7 @@ import Servercomp1 from "@/components/Servercomp1";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  console.log("HELLOOOOO");
+ 
   return (
     <main className=" " id="home">
     <Themes>
