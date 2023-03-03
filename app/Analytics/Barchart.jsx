@@ -26,7 +26,7 @@ ChartJS.register(
   LineElement,
 
 );
-import data from "./Userdata"
+// import data from "./Userdata"
 
 
 const Barchart = () => {

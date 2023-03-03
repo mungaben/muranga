@@ -7,7 +7,7 @@ import {GiLoveMystery} from 'react-icons/gi'
 const Footer = () => {
   return (
     <footer>
-    <div className=' flex md:justify-between md:flex-col justify-between mx-10 '>
+    <div className=' flex md:justify-between  justify-between mx-10 '>
         <div>links </div>
         <div> associations </div>
         <div>socials</div>

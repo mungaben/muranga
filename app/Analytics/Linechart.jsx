@@ -22,7 +22,7 @@ ChartJS.register(
   ArcElement,
 
 );
-import data from "./Userdata"
+// import data from "./Userdata"
 
 
 const Linechart = () => {
