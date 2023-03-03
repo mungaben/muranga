@@ -9,6 +9,7 @@ import Transit from "../components/Transit";
 import Themes from "@/components/Themes";
 import TopNav from "@/components/navigation/TopNav";
 import Servercomp1 from "@/components/Servercomp1";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   console.log("HELLOOOOO");
@@ -20,6 +21,7 @@ export default function Home() {
        <Servercomp1>
            <Hotincampus />
         </Servercomp1>
+        <Footer/>
       </Themes>
  
     </main>

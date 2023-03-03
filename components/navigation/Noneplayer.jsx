@@ -24,7 +24,7 @@ const Noneplayer = () => {
           <source src="/collagevid.mp4" />
         </video>
         <div></div>
-        <div className=" absolute top-1/4 bottom-1/4 ml-10 mr-10 flex justify-center items-center right-1/4 left-1/4  hover:opacity-100 opacity-10">
+        <div className=" absolute md:top-1/4 md:bottom-1/4 md:ml-10 md:mr-10 flex justify-center items-center md:right-1/4 md:left-1/4   hover:opacity-100  opacity-0 top-0 mx-10">
           <div className=" w-full flex flex-col justify-center items-center p-2 m-2 shadow-2xl  border-b-2 border-b-black rounded-b-2xl">
             <div className=" m-4 p-2 text-center text-2xl font-semibold text-white">
               Take a tour
@@ -33,15 +33,15 @@ const Noneplayer = () => {
           </div>
         </div>
         <div
-          className={`absolute bottom-0 ml-10  flex justify-center items-start right-2 hover:opacity-100 opacity-100`}
+          className={`md:absolute  bottom-0 md:ml-10 mt-4  md:flex justify-center md:items-start items-center flex-col md:right-2 hover:opacity-100 opacity-100`}
         >
-          <div className=" w-full flex flex-col justify-center items-center p-2 m-2 shadow-2xl  border-b-2 border-b-black rounded-b-2xl">
-            <div className=" m-1 text-center text-2xl font-semibold text-white flex">
+          <div className=" w-full md:flex md:flex-col justify-center items-center md:p-2 md:m-2 shadow-2xl  md:border-b-2 border-b-black rounded-b-2xl">
+            <div className=" m-1 text-center text-2xl font-semibold text-white flex md:mt-6">
               {/* <Servercomp1> */}
 
               {<Schoolslist />}
             </div>
-            <div className=" m-4 p-2 text-white">hello</div>
+            {/* <div className=" m-4 p-2 text-white">hello</div> */}
           </div>
         </div>
       </div>

@@ -33,7 +33,7 @@ const TopNav = () => {
     return (
         <div>
 
-            <div className="shadow-xl rounded-b-lg border-b-2 border-b-black  w-full fixed top-0 z-50 " >
+            <div className="shadow-xl rounded-b-lg border-b-2 border-b-black  w-full fixed top-4 z-50 " >
                 <div className=' flex  justify-between items-center mx-2  bg-transparent  '>
                     {/* left nav */}
                     <div className=" border-none ml-2 mt-2 rounded-full   ">
@@ -51,10 +51,10 @@ const TopNav = () => {
                     {/* right nav drop down */}
                     <div className=' flex ml-4 shadow-sm  border-l-4 border-l-black hover:border-l-8 hover:dark:bg-white '>
                         <div className=' flex  justify-start  space-x-4 divide-y-reverse '>
-                            <div className=' w-64 h-1 hover:dark:to-blue-100 bg-slate-300 absolute m-auto  underline  decoration-black decoration-y-4 decoration-wavy right-4 mt-3 border-y-2   opacity-40  border-slate-600 shadow-lg   '>
+                            {/* <div className=' w-64 h-1 hover:dark:to-blue-100 bg-slate-300 absolute m-auto  underline  decoration-black decoration-y-4 decoration-wavy right-4 mt-3 border-y-2   opacity-40  border-slate-600 shadow-lg   '>
 
                                 <br className=' bg-black ' />
-                            </div>
+                            </div> */}
                             <div>
                                 <Link
                                     className=''

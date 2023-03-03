@@ -30,7 +30,7 @@ const Schoolslist = () => {
         },
     ]
     return (
-        <div className='  grid  md:grid-cols-2 rounded-lg gap-4 shadow-lg font-mono text-sm font-bold hover:bg-green-700 hover:animate-pulse'  >
+        <div className=' bg-red-300  md:grid  md:grid-cols-2 flex flex-row justify-center ml-0  rounded-lg gap-4 shadow-lg font-mono text-sm font-bold hover:bg-green-700 hover:animate-pulse'  >
             {
                 lists.map((item, index) => (
 

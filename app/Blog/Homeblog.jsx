@@ -15,11 +15,11 @@ const Homeblog = () => {
                 </div>
 
                 {/* FROM BACKEND ATLEAST 3 BLOGS MD SM:1  */}
-                <div className=" flex mx-4 text-left items-center justify-center mt-6  divide-x-2 divide-gray-400 dark:divide-none ">
+                <div className=" grid md:grid-cols-3 mx-4 text-left items-center justify-center mt-6    ">
                     <div className=' '>
                         <div>
                             <Image
-                                className={`rounded-lg p-1 m-2 ${hoverart && "bg-black"}`}
+                                className={`rounded-lg p-1 m-2 ${hoverart && "bg-black"} w-32 h-32 `}
                                 onMouseEnter={() => sethoverart(!hoverart)}
 
                                 src="/imagen.jpg"
@@ -41,7 +41,7 @@ const Homeblog = () => {
                     <div>
                         <div>
                             <Image
-                                className={`rounded-lg p-1 m-2 ${hoverart && "bg-black"}`}
+                                className={`rounded-lg p-1 m-2 ${hoverart && "bg-black"} w-32 h-32 `}
                                 onMouseEnter={() => sethoverart(!hoverart)}
                                 src="/imagen.jpg"
                                 width={300}
@@ -61,7 +61,7 @@ const Homeblog = () => {
                     <div>
                         <div>
                             <Image
-                                className={`rounded-lg p-1 m-2 ${hoverart && "bg-white"}`}
+                                className={`rounded-lg p-1 m-2 ${hoverart && "bg-white"} w-32 h-32 `}
                                 onMouseEnter={() => sethoverart(!hoverart)}
                                 src="/imagen.jpg"
                                 width={300}
