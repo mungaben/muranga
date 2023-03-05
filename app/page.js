@@ -1,15 +1,14 @@
 import Hotincampus from "@/components/Hotincampus";
 import Noneplayer from "@/components/navigation/Noneplayer";
 
-import Transit from "../components/Transit";
 
 
 
 
-import Themes from "@/components/Themes";
+import Footer from "@/components/Footer";
 import TopNav from "@/components/navigation/TopNav";
 import Servercomp1 from "@/components/Servercomp1";
-import Footer from "@/components/Footer";
+import Themes from "@/components/Themes";
 
 export default function Home() {
  
