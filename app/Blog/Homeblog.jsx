@@ -9,7 +9,7 @@ const Homeblog = () => {
 
     return (
         <div>
-            <div className=" mx-2 p-1 mt-4 flex flex-col dark:bg-black">
+            <div className=" mx-2 p-1 mt-4 flex flex-col ">
                 <div className=" flex items-center justify-center">
                     <h1 className=" text-3xl font-bold  hover:underline ">Hot and New</h1>
                 </div>
