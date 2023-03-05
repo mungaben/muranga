@@ -80,7 +80,7 @@ const Homeblog = () => {
                     </div>
                 </div>
             </div>
-            <div className=' grid grid-cols-3 bg-black justify-center m-5 mx-20 mr-48  p-0.5 content-center'/>
+            <div className=' grid grid-cols-3  justify-center m-5 mx-20 mr-48  p-0.5 content-center'/>
                <UserAnalysis/>
  
            
