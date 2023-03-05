@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 
 import Barchart from "./Barchart";
 import Linechart from "./Linechart";

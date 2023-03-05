@@ -1,7 +1,6 @@
 
 
 import Homeblog from "@/app/Blog/Homeblog";
-import Image from "next/image";
 
 const Hotincampus = () => {
 // const [hoverat, sethoverat] = useState(false);

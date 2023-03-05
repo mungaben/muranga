@@ -1,8 +1,7 @@
 
 
 
-import React from 'react'
-import {GiLoveMystery} from 'react-icons/gi'
+import { GiLoveMystery } from 'react-icons/gi'
 
 const Footer = () => {
   return (

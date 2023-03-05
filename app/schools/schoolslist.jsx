@@ -1,6 +1,5 @@
 
-import React from 'react'
-
+"use client"
 const lists = [
     {
         name: "B.Tech",
@@ -20,11 +19,9 @@ const lists = [
 
     },
     {
-
         name: "B.Tech",
         image: "url",
         description: "B.Tech is a free, open-source, cross-platform, responsive, HTML5-based, responsive front-end framework for building responsive websites. It's a free, open-source, cross-platform, responsive, HTML5-based, responsive front-end framework for building responsive websites. It's a free, open-source, cross-platform, responsive, HTML5-based",
-
     },
 ]
 const Schoolslist = () => {

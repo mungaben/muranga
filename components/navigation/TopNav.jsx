@@ -7,20 +7,13 @@
 
 
 
-import Image from 'next/image'
-import { Link } from 'react-scroll'
-import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import { useTheme } from "next-themes";
-import { useState } from 'react'
+import Image from 'next/image';
+import { useState } from 'react';
 import {
-    RiMenu2Fill,
-    RiMoonFill,
-    RiMoonLine,
-    RiSunFill,
-    RiSunLine,
-    RiCloseLine,
-
+    RiMoonLine, RiSunLine
 } from "react-icons/ri";
+import { Link } from 'react-scroll';
 
 
 const TopNav = () => {

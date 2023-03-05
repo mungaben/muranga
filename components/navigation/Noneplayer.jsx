@@ -1,9 +1,7 @@
 "use client";
 
-import React, { Suspense, useState } from "react";
+import { useState } from "react";
 
-import ReactPlayer from "react-player";
-import Servercomp1 from "../Servercomp1";
 import Schoolslist from "@/app/schools/schoolslist";
 
 const Noneplayer = () => {

@@ -11,7 +11,6 @@ const Themes = ({ children }) => {
   return (
     <ThemeProvider enableSystem={true} attribute="class" >
       {children}
-
     </ThemeProvider>
 
   )
