@@ -1,6 +1,9 @@
-# learning next-js next13 project 1 
-##LIVE PROJECT  
+# learning next-js next13 project 1 ongoing
+## LIVE PROJECT  
 ### https://muranga.vercel.app/
+
+![Uploading Screenshot from 2023-03-08 15-39-03.png…]()
+
 
 
 
